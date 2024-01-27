@@ -46,7 +46,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "type": "git",
+        "type": "module",
         "url": "https://github.com/wielembe/goit-nodejs-hw-01"
     },
     "author": "",
