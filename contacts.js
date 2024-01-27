@@ -5,13 +5,6 @@ const contactsFile = path.basename("./db/contacts.json");
 const contactsDir = path.dirname("./db/contacts.json");
 const contactsPath = path.join(contactsDir, contactsFile);
 
-// 1. try {
-//     const fileContent = fs.readFileSync(contactsPath, "utf-8");
-//     console.log(fileContent);
-// } catch (err) {
-//     console.log(err.message);
-// }
-
 function listContacts() {
     fs.readFile(contactsPath, "utf8", (err, data) => {
         if (err) {
